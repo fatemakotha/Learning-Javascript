@@ -3,7 +3,7 @@
  * This is a free space for you to 
  * write any Karel program you want.
  **/
-//the following code makes the robot go in a cicle once
+//the following code makes the robot go in a circle once
 function main(){
    goInCircle();
    goInCircle();
