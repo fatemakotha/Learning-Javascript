@@ -11,5 +11,5 @@ function lifeInWeeks(age) {
     
     
 }
-// here input is 12
+// here give input 12
 lifeInWeeks(12);
