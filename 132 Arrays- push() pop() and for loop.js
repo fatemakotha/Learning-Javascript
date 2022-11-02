@@ -2,10 +2,10 @@
 var list = [];
 
 // 2-Adding item to array: ** Like append() in python list
-list.push(1)
-console.log(list) // [1]
-list.push(2)
-console.log(list) // [1, 2]
+list.push(1);
+console.log(list); // [1]
+list.push(2);
+console.log(list); // [1, 2]
 
 // 3-Remove an item from array: **like remove() in python
 list.pop(); //removes the last item, thus [2]
@@ -16,13 +16,13 @@ list.pop(); //removes the last item, thus [2]
 // start value = 0, end value = 100(as 101 is not inclusive, and i++ means i increases by 1)
 for (let i=0; i < 101; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
-        console.log("Fizz")
+        console.log("Fizz");
     } else if (i % 5 === 0) {
-        console.log("Buzz")
+        console.log("Buzz");
     } else if (i % 3 === 0) {
-        console.log("FizzBuzz")
+        console.log("FizzBuzz");
     }
-    console.log(i)
+    console.log(i);
 }
 
 //---------------------------------OR--------------------------------------
