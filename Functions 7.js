@@ -1,4 +1,4 @@
-function getMilk(money) { //takes an input called money
+ function getMilk(money) { //takes an input called money
     
 console.log("leaveHouse");
 console.log("moveRight");
