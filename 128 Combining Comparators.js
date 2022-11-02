@@ -17,3 +17,21 @@ if (loveScore === 100) {
 } else if (loveScore <= 30) {
     alert("Your love score is " + loveScore + "%" + "low")
 }
+
+
+
+// BMI Calculator:\
+function bmiCalculator(weight, height) {
+    var bmi = weight / Math.pow(height, 2); //Math.pow returns height^2
+    if (bmi < 18.5) {
+        alert("Your bmi is " + bmi + " you are underweight")
+    }
+    else if (bmi > 18.5 && bmi < 24.9) {
+        alert("Your bmi is " + bmi + " you are normal")
+    }
+    else if (bmi > 24.9) {
+        alert("Your bmi is " + bmi + " you are overweight")
+    }
+}
+
+bmiCalculator(20, 1.8);
